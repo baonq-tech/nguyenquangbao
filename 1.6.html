@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <style>
+        body{
+            background-color:#1e1e1e
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+        }
+        img{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border:4px;
+            display:block;
+            margin:0 auto;
+            object-fit:cover;
+        }
+        h1{
+            text-align: center;
+            font-size: 2.5rem;
+            margin-top: 1rem;
+        }
+        p{
+            text-align: center;
+            font-size: 1.2rem;
+            color:white;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            background-color: #333;
+
+        }
+        .butt{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+    </style>
+    <header>
+          <h1 style="color:beige">Portfolio</h1>
+        <div><nav>
+                    <li style="background-color:rgb(74, 79, 79);" ><a href="#about">About</a></li>
+                    <li style="background-color: rgb(77, 81, 81);"><a href="#projects">Projects</a></li>
+                    <li style="background-color: rgb(72, 77, 77);"><a href="#contact">Contact</a></li>
+            </nav>
+            <img src="https://i.postimg.cc/4ym9HLn5/db9f30c10bb68be8d2a7.jpg" alt="Profile Image">
+            <h1 style="color: White;">Nguyễn Quang Bảo</h1>
+            <p>Toi la mot sinh vien hoc lap trinh</p>
+            <div class="butt">
+            <button style="background-color: #333; color: white; border: none; padding: 10px 20px; margin: 5px;">Xem dự án</button>
+            <button style="background-color: #333; color: white; border: none; padding: 10px 20px; margin: 5px;">Liên hệ</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2 style="color: white;text-align: center;">About Me</h2>
+            <p>I am a passionate web developer with experience in creating responsive and user-friendly websites.</p>
+            <button style="background-color: #333; color: white; border: none; padding: 10px 20px; margin: 5px;">Learn More</button>
+            <button style="background-color: #333; color: white; border: none; padding: 10px 20px; margin: 5px;">Contact Me</button>
+            <button style="background-color: #333; color: white; border: none; padding: 10px 20px; margin: 5px;">Download Resume</button>
+            <img src="https://acabiz.vn/backend/images/blog_images/15773555980.png" class="ppp" alt="About Me" style="width: 300px; height: 300px; margin-top: 1rem;">
+        </section>
+        <style>
+            section{
+                text-align: center;
+                margin-top: 2rem;
+            }
+            button{
+                background-color: #333;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 5px;
+                border-radius: 20px;
+            }
+            .ppp{
+                border-radius: 10px;
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+        </style>
+        <section class="projects">
+            <h2 style="color: white; text-align: center;">My Projects</h2>
+            <p>Here are some of the projects I've worked on:</p>
+        </section>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4zWNDyS7kU4eyb1rzVuU71kVD3R7JcujSI8OYkG17RA&s=10" class="anh1" alt="Project 1" style="width: 100%; height: 200px; object-fit: cover;">
+            <h3 style="color: white;">Project 1</h3>
+            <p style="color: white;">Description of Project 1.</p>
+    <style>
+        .card{
+            background-color: #333;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .anh1{
+            border-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+        </div>
+        <div class="pr2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlFqy4JeGlStTBKNZuRqRB_JulmogDWjXkV5cVGmxgVw&s=10" class="anh2" alt="Project 2" style="width: 100%; height: 200px; object-fit: cover;">
+            <h3 style="color: white;">Project 2</h3>
+            <p style="color: white;">Description of Project 2.</p>
+        </div>
+        <style>
+            .pr2{
+                background-color: #333;
+                padding: 1rem;
+                margin: 1rem;
+                border-radius: 10px;
+                text-align: center;
+            }
+            .anh2{
+                border-radius: 10px;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+        </style>
+    <section class="contact">
+        <h2 style="color: white; text-align: center;">Contact Me</h2>
+        <form>
+            <label for="name" style="color: white;">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email" style="color: white;">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message" style="color: white;">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+        </main>    
+        <footer>
+            <p style="color: white; text-align: center;">&copy; 2024 Nguyễn Quang Bảo. All rights reserved.</p>
+            <button class="btt" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Back to Top</button>
+                <style>
+            footer{
+                background-color: #333;
+                padding: 1rem;
+                text-align: center;
+            }
+            button{
+                background-color: #4d4d4d;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 5px;
+                border-radius: 20px;
+                
+            }
+  
+        </style>
+        </footer>
+</body>
+</html>
